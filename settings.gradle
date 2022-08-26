@@ -1,0 +1,5 @@
+rootProject.name = 'GoNative'
+include ':gonative-core'
+apply from: file("./plugins.gradle"); applyModulesSettingsGradle(settings)
+
+include ':app'
